@@ -1,9 +1,10 @@
 import { User } from "./User";
 import { Company } from "./Company";
 import { CustomMap } from "./CustomMap";
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 dotenv.config();
+console.log(process.env.API_key)
 
 const user = new User();
 const company = new Company();
